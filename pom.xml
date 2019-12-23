@@ -94,7 +94,7 @@
         <dependencies>
 
             <dependency>
-                <groupId>io.kptfh.reactivejson</groupId>
+                <groupId>com.playtika.reactivejson</groupId>
                 <artifactId>json-nonblocking</artifactId>
                 <version>${project.version}</version>
             </dependency>
