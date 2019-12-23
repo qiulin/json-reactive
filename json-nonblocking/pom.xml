@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.kptfh.reactivejson</groupId>
+        <groupId>com.playtika.reactivejson</groupId>
         <artifactId>json-reactive</artifactId>
         <version>0.0.2-SNAPSHOT</version>
     </parent>

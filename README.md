@@ -1,3 +1,7 @@
+[![CircleCI](https://circleci.com/gh/Playtika/json-reactive/tree/develop.svg?style=shield&circle-token=dc125176af2f7746808d5335de63f214f6dab7ae)](https://circleci.com/gh/Playtika/json-reactive/tree/develop)
+[![codecov](https://codecov.io/gh/Playtika/json-reactive/branch/develop/graph/badge.svg)](https://codecov.io/gh/Playtika/json-reactive)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.playtika.reactivejson/json-reactive/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.playtika.reactivejson/json-reactive)
+
 # json-reactive
 
 [ ![Download](https://api.bintray.com/packages/kptfh/json-reactive/json/images/download.svg) ](https://bintray.com/kptfh/json-reactive/json/_latestVersion)
@@ -47,7 +51,7 @@ Flowable<TestEntity> testEntityRed = reader.readElements(byteBuffers, objectMapp
     ...
 
     <dependency>
-        <groupId>io.kptfh.reactivejson</groupId>
+        <groupId>com.playtika.reactivejson</groupId>
         <artifactId>json-reactor</artifactId>
         <version>0.0.1</version>
     </dependency>
@@ -55,7 +59,7 @@ Flowable<TestEntity> testEntityRed = reader.readElements(byteBuffers, objectMapp
     or if you tend to use Rx2 interfaces
 
     <dependency>
-        <groupId>io.kptfh.reactivejson</groupId>
+        <groupId>com.playtika.reactivejson</groupId>
         <artifactId>json-rx2</artifactId>
         <version>0.0.1</version>
     </dependency>
