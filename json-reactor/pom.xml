@@ -22,7 +22,7 @@
     <parent>
         <groupId>com.playtika.reactivejson</groupId>
         <artifactId>json-reactive</artifactId>
-        <version>0.0.3</version>
+        <version>0.0.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>json-reactor</artifactId>
